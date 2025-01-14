@@ -14,5 +14,14 @@
       ]
     }
   ],
-  "version": 4
+  "version": 4,
+
+  "PrintToConsole": {
+        "prefix": "std",
+        "body": [
+          "std::cout << $1 << std::endl;",
+          "$2"
+        ],
+        "description": "Print to console using std::cout"
+      }
 }
